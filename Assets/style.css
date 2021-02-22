@@ -134,7 +134,9 @@ main {
 }
 
 .projects {
-    background-color: var(--mid);
+    width: 100%;
+    height: auto;
+
 }
 
 #projectsheader {
@@ -148,17 +150,48 @@ main {
 }
 
 #firstproject {
-    width: 49.4%;
-    float: left;
-}
-
-#otherproject {
-    max-width: 24.5%;
-}
-
-.image-grid {
     
 }
 
+#otherproject {
+    
+}
 
+.image-grid {
+    padding: 10px;
+    margin: 0px;
+    float: left;
+    color: indigo;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    width: 24.85%;
+    position: relative;
+}
 
+.image-grid-1 {
+    padding: 10px;
+    margin: 0px;
+    float: left;
+    color: indigo;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    width: 50%;
+    position: relative;
+}
+
+.image-header {
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+    background-color: ivory;
+    padding: 10px;
+    width: 40%;
+  }
