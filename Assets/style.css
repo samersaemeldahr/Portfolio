@@ -1,7 +1,8 @@
 :root {
+    --bright: ivory;
     --light: #cbe3f0;
     --mid: #5D90B1;
-    --dark: #2F4858;
+    --dark: indigo;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,6 +15,21 @@ body {
     background-color: var(--light);
 }
 
+/* Text styling */
+
+h1 {
+    margin-right: 40%;
+    font-size: 38px;
+    text-align: right;
+    color: var(--bright);
+    background-color: var(--dark);
+    padding: 10px;
+    margin-top: 20%;
+}
+
+/* Link styling */
+
+
 /*.gradient {
     background-image: linear-gradient(to right bottom, var(--dark), var(--light));
 }
@@ -25,20 +41,12 @@ body {
 /* Header */
 
 nav {
-    background-color: indigo;
+    background-color: var(--dark);
     display: flex;
     justify-content: space-between;
     width: 310px;
     position: sticky;
-    padding: 30px;
-}
-
-.nav-links {
-    font-weight: bold;
-    margin-left: 14px;
-    text-align: center;
-    text-decoration: none;
-    color: ivory;
+    padding: 25px;
 }
 
 /* Main section */
@@ -49,16 +57,8 @@ nav {
     background-size: cover;
     background-position: center;
     width: 100%;
-}
-
-section h1 {
-    margin-right: 40%;
-    font-size: 38px;
-    text-align: right;
-    color: ivory;
-    background-color: indigo;
-    padding: 10px;
-    margin-top: 20%;
+    display: inline-block;
+    float: ;
 }
 
 /* About section */
@@ -66,6 +66,7 @@ section h1 {
 .about {
     position: relative;
     height: 100vh;
+    margin-top: auto;
 }
 
 .center {
@@ -81,7 +82,7 @@ section h1 {
     float: left;
     margin: 0px 10px 10px 0px;
     width: 21rem;
-    box-shadow: -5px 5px 1px indigo;
+    box-shadow: -5px 5px 1px var(--dark);
 }
 
 #aboutheader {
@@ -89,14 +90,14 @@ section h1 {
     margin-left: 30px;
     font-size: 38px;
     text-align: right;
-    color: ivory;
-    background-color: indigo;
+    color: var(--bright);
+    background-color: var(--dark);
     padding: 10px;
 }
 
 #abouttext {
     margin-left: 30px;
-    background-color: ivory;
+    background-color: var(--bright);
     padding: 30px;
 }
 
@@ -117,8 +118,8 @@ section h1 {
     margin-right: 60%;
     font-size: 38px;
     text-align: right;
-    color: ivory;
-    background-color: indigo;
+    color: var(--bright);
+    background-color: var(--dark);
     padding: 10px;
 }
 
@@ -134,7 +135,7 @@ section h1 {
     padding: 10px;
     margin: 0px;
     float: left;
-    color: indigo;
+    color: var(--dark);
     font-size: 2vw;
     font-weight: bold;
     text-align: center;
@@ -147,7 +148,7 @@ section h1 {
     padding: 10px;
     margin: 0px;
     float: left;
-    color: indigo;
+    color: var(--dark);
     font-size: 2vw;
     font-weight: bold;
     text-align: center;
@@ -163,7 +164,7 @@ section h1 {
     position: absolute;
     top: 8px;
     z-index: 1;
-    background-color: ivory;
+    background-color: var(--bright);
     padding: 10px;
     width: 40%;
   }
@@ -175,8 +176,8 @@ section h1 {
     margin-left: 30px;
     font-size: 38px;
     text-align: right;
-    color: ivory;
-    background-color: indigo;
+    color: var(--bright);
+    background-color: var(--dark);
     padding: 10px;
 }
 
@@ -193,5 +194,5 @@ section h1 {
     margin-left: 14px;
     text-align: center;
     text-decoration: none;
-    color: indigo;
+    color: var(--dark;
   }
