@@ -23,8 +23,8 @@ h1 {
     text-align: right;
     color: var(--bright);
     background-color: var(--dark);
-    padding: 10px;
-    margin-top: 20%;
+    padding: 15px;
+    margin-top: 12%;
 }
 
 /* Link styling */
@@ -76,8 +76,6 @@ nav {
     background-size: cover;
     background-position: center;
     width: 100%;
-    display: inline-block;
-    float: ;
 }
 
 /* About section */
@@ -86,6 +84,7 @@ nav {
     position: relative;
     height: 100vh;
     margin-top: auto;
+    width: 100%;
 }
 
 .center {
@@ -96,32 +95,16 @@ nav {
 }
 
 #aboutimage {
-    padding: 0;
-    border: 0;
     float: left;
-    margin: 0px 10px 10px 0px;
     width: 21rem;
     box-shadow: -5px 5px 1px var(--dark);
-}
-
-#aboutheader {
-    display: inline-flexbox;
-    margin-left: 30px;
-    font-size: 38px;
-    text-align: right;
-    color: var(--bright);
-    background-color: var(--dark);
-    padding: 10px;
+    margin: 0px 15px 15px 0px;
 }
 
 #abouttext {
-    margin-left: 30px;
     background-color: var(--bright);
     padding: 30px;
-}
-
-#abouttextbox {
-
+    width: 100%;
 }
 
 /* Projects section */
@@ -129,7 +112,7 @@ nav {
 .projects {
     width: 100%;
     height: auto;
-
+    padding-right: 10px;
 }
 
 #projectsheader {
@@ -142,28 +125,7 @@ nav {
     padding: 10px;
 }
 
-#firstproject {
-    
-}
-
-#otherproject {
-    
-}
-
-.image-grid {
-    padding: 10px;
-    margin: 0px;
-    float: left;
-    color: var(--dark);
-    font-size: 2vw;
-    font-weight: bold;
-    text-align: center;
-    height: auto;
-    width: 24.85%;
-    position: relative;
-}
-
-.image-grid-1 {
+.image-grid-main {
     padding: 10px;
     margin: 0px;
     float: left;
@@ -176,16 +138,26 @@ nav {
     position: relative;
 }
 
-.image-header {
+.image-grid {
+    padding: 10px;
+    float: left;
+    color: var(--dark);
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    width: 24.85%;
+    position: relative;
 }
 
-.top-left {
+.image-title {
     position: absolute;
-    top: 8px;
+    top: 19px;
+    left: 39px;
     z-index: 1;
     background-color: var(--bright);
     padding: 10px;
-    width: 40%;
+    width: fit-content;
   }
 
 /* Contact section */
@@ -202,13 +174,14 @@ nav {
 
   #contact-link {
       padding: 12%;
+      clear: both;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
   }
 
-  .contact-links {
+  .links {
     font-weight: bold;
     margin-left: 14px;
     text-align: center;
