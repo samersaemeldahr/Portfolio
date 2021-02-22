@@ -8,53 +8,70 @@
         <link rel="stylesheet" href="./Assets/style.css">
     </head>
 
-    <body>  
+    <body>
 
         <main>
             <section id=showcase>
                 <nav>
-                    <a href="#about-link">About</a>
-                    <a href="#projects-link">Projects</a>
-                    <a href="#contact-link">Contact</a>
+                    <a href="#about-link" class="nav-links">About</a>
+                    <a href="#projects-link" class="nav-links">Projects</a>
+                    <a href="#contact-link" class="nav-links">Contact</a>
                 </nav>
                 <h1>Hi! I'm Samer. <br> A full stack web developer.</h1>
             </section>
-
-            <!--<aside class="left">
-                <p>About me</p>
-                <br/>
-                <p>Projects</p>
-            </aside>
-
-            <section class="margin">
-                    <img src="./Assets/Portrait.jpg" alt="Portrait of Samer Saem Eldahr">
-                    <div>
-                        <p>My name is Samer Saem Eldahr</p>
-                    </div>
-            </section>-->
         </main>
 
         <main class="about" id="about-link">
-            <section>
-                <img src="./Assets/Portrait.jpg" id="aboutimage"/>
-            </section>
+            <div class="center">   
+                <section>
+                    <img src="./Assets/Portrait.jpg" id="aboutimage"/>
+                </section>
 
-            <div>
-                <h1 id="aboutheader">About</h1>
-                <p id="abouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend ligula turpis, id facilisis enim tempus non. Donec mollis condimentum erat, vitae porta felis cursus quis. Etiam accumsan placerat quam id bibendum. Suspendisse cursus orci nec ipsum aliquam, non eleifend dui tristique. Aliquam scelerisque imperdiet magna, non rutrum mauris aliquam a. Cras sollicitudin nisi ut pretium bibendum. Proin nec tempus.</p>
-            </div>
+                <div>
+                    <h1 id="aboutheader">About</h1>
+                    <div id="abouttextbox"><p id="abouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend ligula turpis, id facilisis enim tempus non. Donec mollis condimentum erat, vitae porta felis cursus quis. Etiam accumsan placerat quam id bibendum. Suspendisse cursus orci nec ipsum aliquam, non eleifend dui tristique. Aliquam scelerisque imperdiet magna, non rutrum mauris aliquam a. Cras sollicitudin nisi ut pretium bibendum. Proin nec tempus.</p></div>
+                </div>
+            </div> 
         </main>
 
+
         <main class="projects" id="projects-link">
+            <div>
 
-            <section>
-                <h1 id="projectsheader">Projects</h1>
-            </section>
+                <section>
+                    <h1 id="projectsheader">Projects</h1>
+                </section>
 
-            <section>
-                <img src="./Assets/Horiseon.png" id="firstproject"/>
-            </section>
-            
+                <section class="image-grid">
+                    <header>Camera</header>
+                    <a href="https://samersaemeldahr.github.io/Horiseon/" target="_blank"><img src="./Assets/Horiseon.png" id="firstproject"/></a>
+                    <p>Price: $300</p>
+                </section>
+                <section>
+                    <header>Camera</header>
+                    <a href="https://samersaemeldahr.github.io/Horiseon/" target="_blank"><img src="https://via.placeholder.com/300" class="otherproject"/></a>
+                    <p>Price: $300</p>
+                </section>
+                <section>
+                    <header>Camera</header>
+                    <a href="https://samersaemeldahr.github.io/Horiseon/" target="_blank"><img src="https://via.placeholder.com/300" class="otherproject"/></a>
+                    <p>Price: $300</p>
+                </section>
+                <section>
+                    <header>Camera</header>
+                    <a href="https://samersaemeldahr.github.io/Horiseon/" target="_blank"><img src="https://via.placeholder.com/300" class="otherproject"/></a>
+                    <p>Price: $300</p>
+                </section>
+                <section>
+                    <header>Camera</header>
+                    <a href="https://samersaemeldahr.github.io/Horiseon/" target="_blank"><img src="https://via.placeholder.com/300" class="otherproject"/></a>
+                    <p>Price: $300</p>
+                </section>
+            </div>    
         </main>
     </body>
 </html>
+
+<section class="card">
+
+    <img src="./assets/images/camera.jpg" alt="black camera" />
