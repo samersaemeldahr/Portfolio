@@ -4,21 +4,15 @@ This website showcases my skills and projects with a little introduction about m
 
 ![Portfolio website snapshot](./Assets/snapshot.png)
 
----
-
 ## Table of Contents
 
 1. [Built With](#Built-With)
 2. [Website](#Website)
 
----
-
 ## Built With
 
 * CSS
 * HTML
-
----
 
 ## Website
 
