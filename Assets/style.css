@@ -86,9 +86,22 @@ nav {
     background-position: center;
 }
 
+@media screen and (max-width: 480px) {
+    .showcase {
+        background-position-x: 85%;
+    }
+}
+
 #margin {
     margin-top: 20%;
     padding-left: 20%;
+}
+
+@media screen and (max-width: 480px) {
+    #margin {
+        width: 100%;
+        margin-top: 90%;
+    }
 }
 
 /* About section */
