@@ -146,6 +146,42 @@ nav {
 
 /* Projects section */
 
+.card{
+    position: relative;
+   }
+
+.card div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: black;
+    color: var(--bright);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s ease-in-out; 
+    transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}
+
+.card:hover div{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.text-muted:link {
+    color: var(--bright);
+}
+
+
+.text-muted:hover {
+    cursor: pointer;
+    color: var(--dark);
+}
+
 #projects-link {
     padding-right: 20px;
     height: 100vh;
