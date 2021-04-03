@@ -73,8 +73,13 @@ nav {
     animation-duration: 2s;
 }
 
+.center-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav-links {
-    margin-left: 14px;
+    margin: 0px 10px 0px 10px;
     position: relative;
     animation-name: example;
     animation-duration: 2s;
@@ -85,8 +90,11 @@ nav {
 @media screen and (max-width: 800px) {
     nav {
         width: 100%;
+        min-width: 0px;
     }
 }
+
+
 
 /* Main section */
 
@@ -151,9 +159,11 @@ nav {
     }
 }
 
+
 #aboutimage {
     float: left;
-    width: 21rem;
+    width: 80vw;
+    max-width: 21rem;
     box-shadow: -5px 5px 1px var(--dark);
     margin: 0px 15px 15px 0px;
 }
@@ -212,7 +222,7 @@ nav {
 }
 
 #projects-link {
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: auto;
     width: 100%;
 }
@@ -231,6 +241,7 @@ nav {
     background-color: var(--dark);
     width: fit-content;
 }
+
 
 /* Contact section */
 
