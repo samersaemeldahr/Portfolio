@@ -132,6 +132,48 @@ nav {
     }
 }
 
+/* iPhone X view */
+
+@media only screen 
+  and (width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  { 
+    .showcase {
+        background-position-x: 82%;
+    }
+}
+
+@media only screen 
+  and (width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  { 
+    #margin {
+        width: 100%;
+        margin-top: 130%;
+    }
+}
+
+/* Pixel 2 XL view */
+
+@media only screen 
+  and (height: 823px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  { 
+    .showcase {
+        background-position-x: 82%;
+    }
+}
+
+@media only screen 
+  and (height: 823px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  { 
+    #margin {
+        width: 100%;
+        margin-top: 130%;
+    }
+}
+
 /* About section */
 
 #about-link {
