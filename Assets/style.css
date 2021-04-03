@@ -31,10 +31,7 @@ h1 {
 
 a {
     font-weight: bold;
-    margin-left: 14px;
     text-align: center;
-    text-decoration: none;
-    color: var(--mid);
 }
 
 a:visited {
@@ -69,11 +66,19 @@ nav {
     justify-content: space-between;
     width: 30%;
     min-width: 380px;
-
     padding: 25px;
     position: relative;
     animation-name: example;
     animation-duration: 2s;
+}
+
+.nav-links {
+    margin-left: 14px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    color: var(--mid);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -156,6 +161,11 @@ nav {
     background-color: var(--bright);
     padding: 30px;
     width: 100%;
+}
+
+.bio-links {
+    text-decoration: underline;
+    color: black !important;
 }
 
 /* Projects section */
