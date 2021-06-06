@@ -3,6 +3,7 @@
 This website showcases my skills and projects with a little introduction about me.
 
 ![Portfolio website snapshot](./Assets/snapshot.png)
+![Bio snapshot](./Assets/snapshot2.png)
 
 ## Table of Contents
 
